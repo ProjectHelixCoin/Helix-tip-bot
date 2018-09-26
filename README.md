@@ -1,14 +1,14 @@
-# Galactrum-Bot
-[Galactrum Discord](https://discord.gg/PM3J6d)
+# Helix-Bot
+[Helix Discord](https://discord.gg/dVgcEka)
 
 
-These files are intended to function as a multi-functional bot for Galactrum (ORE)
+These files are intended to function as a multi-functional bot for Helix (HLIX)
 
 # Requirements
 * discord.py installed
 * Python 3.6+
 * A MySQL database
-* The Galactrum wallet w/ RPC enabled.
+* The Helix wallet w/ RPC enabled.
 
 # Functions
 * Display general wallet information
