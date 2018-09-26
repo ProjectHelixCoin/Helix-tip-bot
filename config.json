@@ -1,0 +1,51 @@
+{"data": [
+    {
+        "discord": {
+            "token": "Bot-token"
+        },
+        "mysql": {
+            "db_host": "localhost",
+            "db_user": "db-user",
+            "db_pass": "db-pass",
+            "db": "mysql"
+        },
+        "rpc": {
+            "rpc_host": "127.0.0.1",
+            "rpc_port": "rpc-port",
+            "rpc_user": "rpc-user",
+            "rpc_pass": "rpc-pass"
+        },
+        "logging": {
+            "print_level": 3,
+            "file": "log.txt",
+            "file_level": 3
+        },
+        "soak": {
+            "soak_max_recipients": 50,
+            "use_max_recipients": false,
+            "soak_min_received": 0.00000001,
+            "use_min_received": true
+        },
+        "command_channels": {
+            "help": ["helix-bot", "project-helix-coin","moderation"],
+            "deposit": ["helix-bot", "project-helix-coin", "moderation"],
+            "withdraw": ["helix-bot", "project-helix-coin", "moderation"],
+            "balance": ["helix-bot", "project-helix-coin", "moderation"],
+            "uptime": ["helix-bot", "project-helix-coin", "moderation"],
+            "invite": ["helix-bot", "project-helix-coin", "moderation"],
+            "stats": ["helix-bot", "project-helix-coin", "moderation"],
+            "mninfo": ["helix-bot", "project-helix-coin", "moderation"],
+            "mining": ["helix-bot", "project-helix-coin", "moderation"],
+            "tip": ["helix-bot", "project-helix-coin", "moderation"],
+            "soak": ["helix-bot", "project-helix-coin", "moderation"],
+            "soakme": ["helix-bot", "project-helix-coin", "moderation"],
+            "allowsoak": ["helix-bot", "project-helix-coin", "moderation"],
+            "soak_info": ["helix-bot", "project-helix-coin", "moderation"],
+            "checksoak": ["helix-bot", "project-helix-coin", "moderation"]
+},
+        "txfee": 0,
+        "owners": ["90498537413963776"],
+        "prefix": "$",
+        "description": "Helix-Bot"
+    }
+]}

@@ -1,0 +1,19 @@
+[INFO]    Loading 13 extension(s)...
+[SUCCESS] Successfully loaded the following extension(s): mninfo, stats, tip, help, soak, admin, wallet_info, deposit, mining, balance, uptime, withdraw, invite
+[INFO]    You can now invite the bot to a server using the following link: https://discordapp.com/oauth2/authorize?client_id=211811540607827968&scope=bot
+[INFO]    Channel contact-support added to Discord Forum
+[INFO]    Channel EXIST added to Discord Forum
+[INFO]    Channel exist-lounge added to Discord Forum
+[INFO]    Channel exist-bot added to Discord Forum
+[INFO]    Channel giveaways added to Project Helix
+[INFO]    Channel vape added to Discord Forum
+[INFO]    Channel VAPEX COIN added to Discord Forum
+[INFO]    Channel vapex-lounge added to Discord Forum
+[INFO]    Channel vapex-bot added to Discord Forum
+[INFO]    Channel Social media feed added to Project Helix
+[INFO]    Channel Social media feed deleted from Project Helix
+[INFO]    Channel social-media-feed added to Project Helix
+[INFO]    Channel filipino added to Project Helix
+[INFO]    Channel the-team deleted from Project Helix
+[INFO]    Channel tutorials added to Project Helix
+[INFO]    Channel altsapien added to Discord Forum
