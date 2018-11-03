@@ -22,7 +22,7 @@ class Stats:
         headers={"user-agent" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36"}
         try:
             async with ClientSession() as session:
-                async with session.get("", headers=headers) as response:
+                async with session.get("https://api.coingecko.com/api/v3/coins/helix", headers=headers) as response:
                     responseRaw = await response.read()
                     priceData = json.loads(responseRaw)
                     for item in priceData:
