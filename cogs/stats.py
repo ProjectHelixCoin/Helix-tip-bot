@@ -36,9 +36,9 @@ class Stats:
                     embed.add_field(name='\u200b',value='\u200b')
                     embed.add_field(name="% 24h", value="{}%".format(priceData['market_data']['price_change_percentage_24h']))
                     embed.add_field(name="% 7d", value="{}%".format(priceData['market_data']['price_change_percentage_7d']))
+					embed.add_field(name='\u200b',value='\u200b')
                     embed.add_field(name="Circulating Supply", value="{} HLIX".format(priceData['market_data']['circulating_supply']))
                     embed.add_field(name="Total Supply", value="{} HLIX".format(priceData['market_data']['total_supply']))
-                    embed.add_field(name="Maximum Supply", value="500,000,000 HLIX")
                     embed.set_footer(text="https://www.coingecko.com/en/coins/helix", icon_url="https://i.imgur.com/ZnwpZ3r.png")
                     await self.bot.say(embed=embed)
         except Exception as e:
