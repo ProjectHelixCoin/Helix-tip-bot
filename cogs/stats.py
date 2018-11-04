@@ -31,20 +31,19 @@ class Stats:
                     embed.add_field(name="Price (USD)", value="${}".format(priceData['tickers'][0]['converted_last']['usd']))
                     embed.add_field(name="Price (BTC)", value="{} BTC".format(priceData['tickers'][0]['converted_last']['btc']))
                     embed.add_field(name='\u200b',value='\u200b')
-                    embed.add_field(name="Volume (USD)", value="${}".format(priceData['tickers'][0]['volume']))
-                    embed.add_field(name="Market Cap", value="${}".format(priceData['market_data']['market_cap']['usd']))
-                    embed.add_field(name='\u200b',value='\u200b')
+                    embed.add_field(name="Volume (BTC)", value="{} BTC".format(priceData['tickers'][0]['converted_volume']['btc']))
+                    embed.add_field(name="Volume (USD)", value="${}".format(priceData['market_data']['total_volume']['usd']))
+                    embed.add_field(name="Volume (HLIX)", value="{} HLIX".format(priceData['tickers'][0]['volume']))
                     embed.add_field(name="% 24h", value="{}%".format(priceData['market_data']['price_change_percentage_24h']))
                     embed.add_field(name="% 7d", value="{}%".format(priceData['market_data']['price_change_percentage_7d']))
-					embed.add_field(name='\u200b',value='\u200b')
+                    embed.add_field(name="% 30d", value="{}%".format(priceData['market_data']['price_change_percentage_30d']))
+                    embed.add_field(name="Market Cap", value="${}".format(priceData['market_data']['market_cap']['usd']))
                     embed.add_field(name="Circulating Supply", value="{} HLIX".format(priceData['market_data']['circulating_supply']))
                     embed.add_field(name="Total Supply", value="{} HLIX".format(priceData['market_data']['total_supply']))
                     embed.set_footer(text="https://www.coingecko.com/en/coins/helix", icon_url="https://i.imgur.com/ZnwpZ3r.png")
                     await self.bot.say(embed=embed)
         except Exception as e:
 		    await self.bot.say(str(e))
-#           await self.bot.say(":warning: Error fetching prices!")
-
 
 def setup(bot):
     bot.add_cog(Stats(bot))
