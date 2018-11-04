@@ -29,7 +29,7 @@ class Stats:
                     embed= discord.Embed(colour=0x00FF00)
                         embed.set_author(name='HLIX Information', icon_url="https://i.imgur.com/ZnwpZ3r.png")
                         embed.add_field(name="Price (USD)", value="${}".format(priceData['tickers'][0]['converted_last']['usd']))
-                    embed.add_field(name="Price (BTC)", value="{} BTC".format(priceData['tickers'][0]['converted_last']['btc']))
+                        embed.add_field(name="Price (BTC)", value="{} BTC".format(priceData['tickers'][0]['converted_last']['btc']))
                         embed.add_field(name='\u200b',value='\u200b')
                         embed.add_field(name="Volume (USD)", value="${}".format(priceData['tickers'][0]['volume']))
                         embed.add_field(name="Market Cap", value="${}".format(priceData['market_data']['market_cap']['usd']))
