@@ -25,19 +25,19 @@ class Masternodes:
             curr_block_reward = 111
             curr_mn_reward_percent = 0.000000000000000000000000000000000000000000000000000000001
         elif block_number <= 525600:
-            curr_block_reward = 13.5	
+            curr_block_reward = 15	
             curr_mn_reward_percent = 0.6
         elif block_number <= 1576800:
-            curr_block_reward = 12.15	
+            curr_block_reward = 13.5	
             curr_mn_reward_percent = 0.6
         elif block_number <= 2628000:
-            curr_block_reward = 9.72	
+            curr_block_reward = 10.8	
             curr_mn_reward_percent = 0.6
         elif block_number <= 58545900:
-            curr_block_reward = 7.29	
+            curr_block_reward = 8.1	
             curr_mn_reward_percent = 0.6
         elif block_number <= 58545902:
-            curr_block_reward = 3.78	
+            curr_block_reward = 4.2	
             curr_mn_reward_percent = 0.6
         else:
             curr_block_reward = 0
