@@ -43,7 +43,9 @@ class Stats:
                     embed.set_footer(text="https://www.coingecko.com/en/coins/helix", icon_url="https://i.imgur.com/ZnwpZ3r.png")
                     await self.bot.say(embed=embed)
         except Exception as e:
-		    await self.bot.say(str(e))
+            await self.bot.say(str(e))
+#           await self.bot.say(":warning: Error fetching prices!")
+
 
 def setup(bot):
     bot.add_cog(Stats(bot))

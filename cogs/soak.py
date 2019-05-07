@@ -85,7 +85,7 @@ class Soak:
         long_soak_msg = ":moneybag: {} **Soaked {} HLIX on {} [Total {} HLIX]** :moneybag:\nNOTE: You can opt out of soak by doing \"!soakme 0\". This will ensure you do not get picked for soak.".format(ctx.message.author.mention, str(amount_split), ', '.join([x.mention for x in receivers]), str(amount))
 
         if len(long_soak_msg) > 2000:
-            await self.bot.say(":moneybag: {} **Soaked {} HLIX on {} users [{}]** :moneybag:".format(ctx.message.author.mention, str(amount_split), len_receivers, str(amount)))
+            await self.bot.say(":moneybag: {} **Soaked {} HLIX on {} users [{}] @here** :moneybag:".format(ctx.message.author.mention, str(amount_split), len_receivers, str(amount)))
         else:
             await self.bot.say(long_soak_msg)
 
